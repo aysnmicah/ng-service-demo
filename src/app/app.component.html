@@ -1,4 +1,4 @@
-<div> 
+<!-- <div> 
   Today's date :- {{presentDate}} 
 </div>
 
@@ -85,6 +85,17 @@ This indicates the hours and minutes:- {{presentDate | date: 'h:mm'}}
   <p>array: {{ testArray }}</p>
   <p>Start index: {{testArray | slice:0:1}}<p>
   <p>End Index: {{testArray | slice:5:6}}</p>
+</div> -->
+
+<div>
+  <h3>Ng Service</h3>
+  {{ todaydate }}
 </div>
+
+<br>
+<h3>new-cmp</h3>
+{{todaydate}} <br>
+{{componentproperty}}
+<app-new-cmp></app-new-cmp>
 
 <router-outlet />
